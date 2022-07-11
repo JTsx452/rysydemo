@@ -18,7 +18,9 @@ webpackJsonp([1],
                 {
                     ScanCode:function(){},
                     goToSearch:function()
-                    {this.$router.push("/Home/product")}
+                    {this.$router.push("/Home/product")},
+                    goToSaoma:function()
+                    {window.open("./static/html/saoma.html")}
                 }
             },
             r = 
@@ -64,7 +66,17 @@ webpackJsonp([1],
                                         [t._v("查询")]
                                     ),
                                     t._v(" "),
-                                    a("p",[t._v("扫码查询")])
+                                    
+                                    a(
+                                        "el-button",
+                                        {
+                                            staticStyle:{width:"50%","margin-top":"20px"},
+                                            attrs:{type:"danger",icon:"el-icon-search"},
+                                            on:{click:function(e){return t.goToSaoma()}}
+                                        },
+                                        [t._v("扫码查询")]
+                                    ),
+                                    //<a href="static/html/saoma.html">扫码查询</a>
                                 ],
                             1)]
                         )]
