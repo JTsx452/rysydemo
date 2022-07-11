@@ -41,7 +41,7 @@ webpackJsonp([1],
                                         "el-input",
                                         {
                                             staticClass:"input",
-                                            staticStyle:{width:"100%","margin-top":"20px"},
+                                            staticStyle:{width:"75%","margin-top":"20px"},
                                             attrs:{placeholder:"请输入溯源码"},
                                             model:
                                             {
@@ -57,7 +57,7 @@ webpackJsonp([1],
                                     a(
                                         "el-button",
                                         {
-                                            staticStyle:{width:"100%","margin-top":"20px"},
+                                            staticStyle:{width:"75%","margin-top":"20px"},
                                             attrs:{type:"danger",icon:"el-icon-search"},
                                             on:{click:function(e){return t.goToSearch()}}
                                         },
